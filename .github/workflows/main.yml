@@ -16,8 +16,8 @@ jobs:
       - name: Add remote 
         env:
           mlops: ${{ secrets.mlops }}
-        run: git remote add space https://noahgift:$mlops@huggingface.co/spaces/noahgift/demo
+        run: git remote add space https://umairzia1773:$mlops@huggingface.co/spaces/umairzia1773/mlops
       - name: Push to hub
         env:
           mlops: ${{ secrets.mlops }}
-        run: git push --force https://noahgift:$mlops@huggingface.co/spaces/noahgift/demo main
+        run: git push --force https://umairzia1773:$mlops@huggingface.co/spaces/umairzia1773/mlops main
